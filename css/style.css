@@ -134,4 +134,39 @@ img {
     }
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .row {
+        display: block;
+        max-width: 80%;
+
+    }
+
+    *,
+    *::before,
+    *::after {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 10%;
+    }
+
+    .why-us {
+        background-color: black;
+    }
+
+    .lessons .col {
+        width: 100%;
+
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+}
